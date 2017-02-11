@@ -240,6 +240,22 @@ div.sectionThree {
 	padding-top:50px;
 }
 
+.containerSectionThree li{
+	display:inline-block;
+	text-align:center;
+	padding-left:40px;	
+	font-family:normal
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.containerSectionThree ul{
+
+	text-align:center;
+	margin-top:90px;
+	margin-left:-15%;
+}
+
+
 
 /*==================================================================
 							section 4
