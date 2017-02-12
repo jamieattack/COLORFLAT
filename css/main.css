@@ -137,13 +137,13 @@ img.monitor {
   height: 15px;
   width: 15px;
   margin: 5px;
-  background-color: #A6D2DB;
+  background-color: #FEFEFE;
   border-radius: 50%;
   display: inline-block;
 }
 
 .active, .dot:hover {
-  background-color: #A6D2DB;
+  background-color: lightgrey;
 }
 
 
@@ -204,6 +204,7 @@ div.sectionThree {
 	z-index:2;
 	margin-left:10%;
 	margin-right:10%;
+	font-family
 	
 }
 
@@ -286,8 +287,23 @@ li.web{
 							section 4
 ================================================================*/
 
+div.sectionFour {
+	background-color:#FEFEFE;
+	width:80%;
+	z-index:2;
+	margin-left:10%;
+	margin-right:10%;
+	display:inline-block;
+}
 
-
+.containerSectionFour div {
+	display:inline-block;
+	margin:0 auto;
+	z-index:3;
+	height:250px;
+	width:450px;
+	overflow:hidden;
+}
 
 
 
