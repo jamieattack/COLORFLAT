@@ -304,7 +304,117 @@ div.sectionFour {
 	height:250px;
 	width:450px;
 	overflow:hidden;
+
 }
+
+
+div.left2{
+	width:35%;
+	float:left;
+	margin:0 auto;
+	display:inline-block;
+	padding-top:50px;
+}
+
+div.right2{
+	float:left;
+	text-align:left;
+	margin:0 auto;
+	display:inline-block;
+	width:45%;
+	margin-left:40px;
+	padding-top:75px;
+}
+
+.sectionFour img{
+	width:200px;
+	float:right;
+}
+.showMore2 {
+	font-family:bold;
+	background-color:#9BD5A5;
+	padding: 6px 12px 6px 12px;
+	width:100px;
+	border-radius:8px;
+	color:white;
+}
+
+
+
+/*==========================================================
+						accent
+=============================================================*/
+.accent{
+	background-color: grey;
+	height:2px;
+	width:700px;
+	margin:0 auto;
+	margin-top: -20px;
+	z-index:5;
+}
+
+
+/*==========================================================
+					section 4.5
+=============================================================*/
+
+
+
+div.sectionFourFive {
+	margin-top:-5px;
+	background-color:#FEFEFE;
+	width:80%;
+	z-index:2;
+	margin-left:10%;
+	margin-right:10%;
+	display:inline-block;
+}
+
+.containerSectionFourFive div {
+	display:inline-block;
+	margin:0 auto;
+	z-index:3;
+	height:250px;
+	width:450px;
+	overflow:hidden;
+
+}
+
+
+div.left3{
+	width:45%;
+	float:left;
+	margin:0 auto;
+	display:inline-block;
+	padding-top:75px;
+	margin-left:18%;
+	margin-right:20px;
+
+}
+
+div.right3{
+	float:left;
+	text-align:left;
+	margin:0 auto;
+	display:inline-block;
+	padding-top:50px;
+
+}
+
+.sectionFourFive img{
+	width:200px;
+	float:left;
+}
+.showMore3 {
+	font-family:bold;
+	background-color:#9BD5A5;
+	padding: 6px 12px 6px 12px;
+	width:100px;
+	border-radius:8px;
+	color:white;
+}
+
+
 
 
 
@@ -424,6 +534,8 @@ div.sectionFour {
 	}
 }
 
+
+
 /*---------------------------------------------------*/
 
 @media (max-width:1140px){
@@ -472,7 +584,7 @@ div.sectionFour {
 	}
 	
 	img.monitor {
-	height:150px;
+	height:180px;
 	}
 
 
@@ -483,7 +595,7 @@ div.sectionFour {
 	}
 
 	div.right {
-		margin-left:35%;
+		margin-left:32%;
 	}
 
 
@@ -506,6 +618,7 @@ div.sectionFour {
 /*-----------------------------------------------*/
 
 
+
 @media (max-width:1080px){
 
 	.containerSectionTwo {
@@ -525,6 +638,19 @@ div.sectionFour {
 		font-size:16px;
 	}
 
+	div.right {
+		margin-left:31%;
+	}
+
+
+
+/*---------------------------------------------------*/
+
+@media (max-width:1040px){
+
+	div.right {
+		margin-left:32%;
+	}
 }
 
 /*-----------------------------------------------*/
@@ -543,6 +669,14 @@ div.sectionFour {
 }
 
 /*-----------------------------------------------*/
+@media (max-width:1000px){
+	
+	div.right {
+		margin-left:31%;
+	}
+}
+
+/*----------------------------------------------*/
 
 
 @media (max-width:990px){
@@ -596,7 +730,7 @@ div.sectionFour {
 
 	.navRight{
 		font-size:12px;
-		margin-right:4%;
+		margin-right:3%;
 	}
 	.navLeft{
 		font-size:14px;
@@ -609,6 +743,27 @@ div.sectionFour {
 		margin-left:12%;
 	}
 }
+/*-----------------------------------------------*/
+
+
+@media (max-width:926px){
+	
+	div.right{
+		margin-left:29%;
+	}
+}
+
+/*-----------------------------------------------*/
+
+
+@media (max-width:920px){
+	
+	div.right{
+		margin-left:27%;
+	}
+}
+
+
 
 /*-----------------------------------------------*/
 
@@ -658,6 +813,15 @@ div.sectionFour {
 	.navRight{
 		margin-right:3%;
 	}
+
+
+	.containerSectionThree li{
+		margin-right:30px;
+	}
+
+	.containerSectionTwo div{
+		margin-left:-1%;
+	}
 }
 
 /*-----------------------------------------------*/
@@ -683,6 +847,7 @@ div.sectionFour {
 /*-----------------------------------------------*/
 
 @media (max-width:818px){
+	
 	.navRight{
 		margin-left:1%;
 	}
@@ -694,7 +859,7 @@ div.sectionFour {
 	}
 
 	div.right {
-		margin-left:27%;
+		margin-left:26.5%;
 	}
 
 	.description{
@@ -702,7 +867,7 @@ div.sectionFour {
 	}
 
 	.containerSectionTwo {
-		margin-left:4%;
+		margin-left:5%;
 		height:200px;
 
 	}
@@ -711,6 +876,10 @@ div.sectionFour {
 		padding:20px;
 		padding-top:40px;
 
+	}
+
+	.containerSectionThree p.small {
+		font-size:14px;
 	}
 
 }
@@ -728,11 +897,16 @@ div.sectionFour {
 	.containerSectionThree ul{
 		margin-left:-8%;
 	}
-	.containerSectionOne div {
-		height:180px;
+
+
+	
+
+
+	div.left {
+		margin-left:6%;
 	}
-	img.monitor{
-		margin-top:30px;
+	div.right {
+		margin-left:26%;
 	}
 
 }
@@ -744,7 +918,154 @@ div.sectionFour {
 	.navRight li{
 		margin-left:20px;
 	}
+
+	.containerSectionTwo {
+		margin-left:4%;
+	}
 }
+
+/*-----------------------------------------------*/
+
+@media (max-width:770px){
+
+	.containerSectionTwo {
+		margin-left:3%;
+	}
+	div.right{
+		margin-left:25%;
+	}
+
+	.containerSectionThree {
+		margin-left:5%;
+	}
+
+}
+/*-----------------------------------------------*/
+
+@media (max-width:765px){
+	
+	.containerSectionThree li{
+		margin-right:20px;
+	}
+
+}
+
+/*------------------------------------------------*/
+
+@media (max-width:760px){
+
+	.containerSectionTwo {
+		margin-left:2%;
+	}
+	div.right {
+		margin-left:24.5%;
+	}
+	.containerSectionThree {
+		margin-left:4%;
+	}
+
+}
+/*-----------------------------------------------*/
+
+@media (max-width:750px){
+
+	.containerSectionTwo {
+		margin-left:1%;
+	}
+
+}
+
+/*-----------------------------------------------*/
+
+@media (max-width:740px){
+		
+		.containerSectionThree {
+		margin-left:3%;
+	}
+}
+
+
+/*-------------------------------------------------*/
+
+@media (max-width:733px){
+ 	
+ 	div.right{
+ 		margin-left:25%;
+ }
+}
+
+/*-------------------------------------------------*/
+
+@media (max-width:730px){
+
+	.containerSectionThree div{
+	height:130px;
+	}
+
+	.containerSectionThree img{
+		width:200px;
+	}
+	.containerSectionThree{
+		margin-left:8%;
+	}
+}
+
+/*-------------------------------------------------*/
+
+@media (max-width:722px){
+	
+	div.right{
+		margin-left:24%;
+	}
+	.containerSectionTwo {
+		margin-left:0%;
+	}
+}
+/*-------------------------------------------------*/
+@media (max-width:720px){
+
+	.containerSectionThree{
+		margin-left:7%;
+	}
+	.sectionOne p{
+		font-size:36px;
+	}
+	div.left{
+		margin-left:2%;
+	}
+	.containerSectionThree p.bold{
+		font-size:36px;
+	}
+	.containerSectionThree ul{
+		font-size:12px;
+		margin-top:20px;
+	}
+}
+
+/*---------------------------------------------------*/
+
+@media (max-width:700px){
+
+	.containerSectionThree{
+		margin-left:6%;
+	}
+	div.right{
+		margin-left:22.5%;
+	}
+
+}
+
+/*---------------------------------------------------*/
+
+@media (max-width:685px){
+	.containerSectionTwo{
+		margin-left:-2%;
+	}
+	.containerSectionThree p.small {
+		display:none;
+	}
+}
+
 
 
 
